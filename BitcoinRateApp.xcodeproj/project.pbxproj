@@ -56,8 +56,6 @@
 		D474438528CA7F1000557C49 /* BitcoinRateApp */ = {
 			isa = PBXGroup;
 			children = (
-				D474438628CA7F1000557C49 /* AppDelegate.swift */,
-				D474438828CA7F1000557C49 /* SceneDelegate.swift */,
 				D474438A28CA7F1000557C49 /* ViewController.swift */,
 				D474438C28CA7F1000557C49 /* Main.storyboard */,
 				D474438F28CA7F1100557C49 /* Assets.xcassets */,
@@ -71,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				D474439428CA7F1100557C49 /* Info.plist */,
+				D474438628CA7F1000557C49 /* AppDelegate.swift */,
+				D474438828CA7F1000557C49 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
