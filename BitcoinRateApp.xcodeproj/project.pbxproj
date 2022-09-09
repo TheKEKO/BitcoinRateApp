@@ -56,10 +56,11 @@
 		D474438528CA7F1000557C49 /* BitcoinRateApp */ = {
 			isa = PBXGroup;
 			children = (
-				D474438A28CA7F1000557C49 /* ViewController.swift */,
-				D474438C28CA7F1000557C49 /* Main.storyboard */,
-				D474438F28CA7F1100557C49 /* Assets.xcassets */,
-				D474439128CA7F1100557C49 /* LaunchScreen.storyboard */,
+				D474439D28CBC74D00557C49 /* View */,
+				D474439F28CBC79A00557C49 /* Services */,
+				D474439E28CBC77000557C49 /* Models */,
+				D474439B28CBC72B00557C49 /* Storyboards */,
+				D474439C28CBC73D00557C49 /* Resources */,
 				D474439A28CA7FCF00557C49 /* App */,
 			);
 			path = BitcoinRateApp;
@@ -73,6 +74,45 @@
 				D474438828CA7F1000557C49 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		D474439B28CBC72B00557C49 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D474438C28CA7F1000557C49 /* Main.storyboard */,
+				D474439128CA7F1100557C49 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D474439C28CBC73D00557C49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D474438F28CA7F1100557C49 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D474439D28CBC74D00557C49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D474438A28CA7F1000557C49 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D474439E28CBC77000557C49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D474439F28CBC79A00557C49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
