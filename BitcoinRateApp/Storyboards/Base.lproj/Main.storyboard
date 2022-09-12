@@ -26,8 +26,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="reR-f1-Iwd">
                                 <rect key="frame" x="0.0" y="10" width="320" height="165"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ByteCoin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJq-mT-zoU">
-                                        <rect key="frame" x="45" y="0.0" width="230" height="60"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin Rate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJq-mT-zoU">
+                                        <rect key="frame" x="42.5" y="0.0" width="235" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="53F-Zy-3Xv"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="230" id="GWg-eh-nQ1"/>
