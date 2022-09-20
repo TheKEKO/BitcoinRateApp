@@ -19,4 +19,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 }
+//MARK: - CoinManagerDelegate
 
+extension ViewController: CoinManagerDelegate {
+    
+    func didUpdatePrice(price: String, currency: String) {
+        
+        DispatchQueue.main.async {
+            self.bitcoinLabel.text = price
+            self.currencyLabel.text = currency
+        }
+    }
+    
+    func didFailWithError(error: Error) {
+        print(error)
+    }
+}
