@@ -17,6 +17,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        coinManager.delegate = self
+        currencyPicker.dataSource = self
+        currencyPicker.delegate = self
     }
 }
 
