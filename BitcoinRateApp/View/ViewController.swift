@@ -61,5 +61,4 @@ extension ViewController: UIPickerViewDataSource, UIPickerViewDelegate {
           let selectedCurrency = coinManager.currencyArray[row]
           coinManager.getCoinPrice(for: selectedCurrency)
       }
-    
 }
