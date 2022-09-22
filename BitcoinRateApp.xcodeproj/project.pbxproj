@@ -61,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				D474439D28CBC74D00557C49 /* View */,
+				D4C0696028DC9ADA006E6E08 /* Services */,
 				D474439E28CBC77000557C49 /* Models */,
 				D474439B28CBC72B00557C49 /* Storyboards */,
 				D474439C28CBC73D00557C49 /* Resources */,
@@ -107,10 +108,17 @@
 		D474439E28CBC77000557C49 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D47443A028CBC7E700557C49 /* CoinManager.swift */,
 				D47443A228CBC81B00557C49 /* CoinData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D4C0696028DC9ADA006E6E08 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D47443A028CBC7E700557C49 /* CoinManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
