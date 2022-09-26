@@ -2,4 +2,4 @@
 Application Bitcoin Rate using UIKit
 
 - Архитектура MVC
-- API ""
+- API "https://rest.coinapi.io/v1/exchangerate/BTC"
