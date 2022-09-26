@@ -1,2 +1,5 @@
 # BitcoinRateApp
-Application BitcoinRateApp using UIKit
+Application Bitcoin Rate using UIKit
+
+- Архитектура MVC
+- API ""
