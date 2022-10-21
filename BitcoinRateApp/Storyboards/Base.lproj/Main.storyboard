@@ -19,9 +19,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOc-7r-0oF">
-                                <rect key="frame" x="0.0" y="259" width="320" height="309"/>
+                                <rect key="frame" x="0.0" y="245" width="320" height="323"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="309" id="alJ-MA-zx5"/>
+                                    <constraint firstAttribute="height" constant="323" id="alJ-MA-zx5"/>
                                 </constraints>
                             </pickerView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="reR-f1-Iwd">
@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ot8-qO-2rG" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="392" y="71"/>
+            <point key="canvasLocation" x="391.875" y="70.774647887323951"/>
         </scene>
     </scenes>
     <resources>
